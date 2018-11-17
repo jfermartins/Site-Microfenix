@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Fale Conosco</title>
+ 
+  <link rel="shorcut icon" href="imagens/logo.ico" type="image/x-png"/>
+  <link href="estilos/principal.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<header class="cabecalho">
+
+<figure id="logo">
+	<img src="imagens/logo.png" alt="logo" width="150" height="150">
+</figure>
+
+<nav id="menu">
+    <ul>
+	    <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="faleconosco.html">Fale Conosco</a></li>		 
+    </ul>
+</nav>
+
+<div class="acesso">
+	<p><label for="login">Email:</label> <input type="email" name="login" id="login" size = "20" maxlength="100" placeholder="e-mail de login"></p>
+	<p><label for="Senha">Senha:</label> <input type="password" name="senha" id="senha" size = "20" maxlength="100" placeholder="senha"/></p>
+	<input type="submit" value="Entrar" id="entrar">
+</div>
+
+</header>
+
+<main>
+
+
+
+  <h1 id="faixacabeca">Fale Conosco</h1> 
+
+ <article>
+<br>
+
+<section id ="paragrafo">
+<p> Para entrar em contato com a MicroFênix basta preencher os campos abaixo. Em breve entraremos em contato! </p>
+</section>
+
+<form method="post" id="contato" action="obrigado.html">
+
+<fieldset id="ident"> 
+
+
+
+<p><label for="nome">Nome:</label> <input type="text" name="nome" id="nome" size = "50" maxlength="100" placeholder="Digite o nome completo"/></p>
+
+
+
+<p><label for="email">Email:</label> <input type="email" name="email" id="email" size = "50" maxlength="100" placeholder="Digite o endereço de email"> </p> 
+
+<br>
+
+<p>Assunto:
+
+<select name="assunto1" id="assunto1">
+
+<option selected value="Selecione">Selecione!</option>
+
+<option value="sugestao">Sugestões</option>
+
+<option value="critica">Críticas</option>
+
+<option value="reclamacao">Reclamacões</option>
+
+<option value="elogio">Elogios</option>
+
+</select>
+
+
+</p>
+<textarea id="caixa" name="q_obs" rows="6" style="width: 47em" id="q_obs"  placeholder="Digite alguma informação sobre sua solicitação"></textarea> 
+
+<input type="submit" value="Enviar" id="enviar1">
+</fieldset>
+
+
+
+
+
+</form>
+
+</article>
+
+</main>
+
+<footer class="rodape">
+
+<p>Av. Conselheiro Nébias nº 315, Vila Matias, Santos/SP - (13) 0000-0000 - www.microfenix.com.br</p>
+ <nav>
+<ul class="icones-sociais">
+   <li><a href="#"  target="_blank" class="youtube">youtube</a></li>
+   <li><a href="#"  target="_blank" class="facebook">facebook</a></li>
+   <li><a href="#"  target="_blank" class="google-mais">google plus</a></li>
+   <li><a href="#"  target="_blank" class="twiter">Twiter</a></li>
+   <li><a href="#"  target="_blank" class="instagran">Instagran</a></li>
+ </ul>
+</nav>
+</footer>
+
+  
+  </main>
+</body>
+</html>

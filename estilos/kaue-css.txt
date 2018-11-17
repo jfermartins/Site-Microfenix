@@ -1,0 +1,60 @@
+#midiayoutube {
+margin-left: -12px;
+margin-top: 20px;
+}
+
+#titulos{
+font-family: Arial Black;
+	text-align: justify;
+	color:#c84b3a;
+	margin-left: 260px;
+	margin-top: 55px;
+}
+	
+#titulos2{
+	font-family: Arial Black;
+	text-align: justify;
+	color:#c84b3a;
+	margin-left: 100px;
+}
+	
+#p2{
+	font-family: Arial;
+	text-align: left;
+	color:#000;
+}
+	
+#p{
+	font-family: Arial;
+	text-align: left;
+	color:#000;
+	margin-left: 260px;
+	text-indent: 0px;
+}
+	
+#tabelaaluno ul{
+	clear: both;
+	float: left;
+	text-align:center;
+    list-style:none;
+	padding-top: 70px;
+	margin-top: -55px;
+}
+
+#tabelaaluno ul li {
+	display: block;
+	font-weight: 700px;
+    font-size: 20px;
+}
+
+#tabelaaluno ul li a {
+	font-family: times new roman;
+    padding: 10px 10px;
+    display: block;
+    color:#6b1a0d;
+	background-color: #e64936;
+    text-decoration: none;
+	font-weight: bolder;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px fff;
+}
